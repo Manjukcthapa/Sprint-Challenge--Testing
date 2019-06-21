@@ -45,6 +45,9 @@ describe("server.js", () => {
 
         expect(res.body[0].title).toEqual(game.title);
       });
+      it("should return an array" , async () => {
+          
+      })
       
 
     });
